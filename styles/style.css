@@ -6,7 +6,11 @@
   --heading-font-family: "Sacramento", cursive;
   --default-font-family: "Laila", sans-serif;
 }
-.container {
+body {
+  font-family: var(--default-font-family);
+  color: var(--fourth-color);
+}
+.hero {
   background-color: #f2ffdf;
   text-align: center;
   font-family: var(--default-font-family);
@@ -27,16 +31,23 @@ h6 {
 h1 {
   font-size: 96px;
   font-weight: bold;
+  line-height: 1.5;
 }
-.container p {
+h2 {
+  font-size: 64px;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
-.container h2 {
+.hero h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
-
   color: var(--third-color);
 }
 .btn-branding {
@@ -46,4 +57,35 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: var(--third-color);
+  border: 1px solid var(--third-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 42px;
+  }
+}
+img {
+  margin: 120px 20px;
+  padding: 50px;
 }
