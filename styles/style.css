@@ -1,0 +1,49 @@
+:root {
+  --first-color: #f2ffdf;
+  --second-color: #b1f1b2;
+  --third-color: #1e757b;
+  --fourth-color: #424d69;
+  --heading-font-family: "Sacramento", cursive;
+  --default-font-family: "Laila", sans-serif;
+}
+.container {
+  background-color: #f2ffdf;
+  text-align: center;
+  font-family: var(--default-font-family);
+  color: var(--fourth-color);
+  font-weight: normal;
+  padding: 160px 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: var(--fourth-color);
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+.container p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.container h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+
+  color: var(--third-color);
+}
+.btn-branding {
+  background-color: var(--second-color);
+  border-radius: 4px;
+  color: var(--fourth-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
