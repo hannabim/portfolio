@@ -18,6 +18,35 @@ body {
   font-weight: normal;
   padding: 160px 20px;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: var(--third-color);
+}
+nav a:hover {
+  color: var(--second-color);
+  transition: all 200ms ease-in-out;
+  font-weight: bold;
+}
+nav li.active a {
+  color: var(--fourth-color);
+  font-weight: bold;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
 
 .content-container {
   padding: 160px 20px;
@@ -116,9 +145,11 @@ p {
     text-align: center;
     padding: 0;
   }
+  nav a {
+    font-size: 12px;
+  }
 }
 .hero img {
   margin: 120px 20px;
   padding: 50px;
 }
-
