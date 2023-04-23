@@ -153,3 +153,40 @@ p {
   margin: 120px 20px;
   padding: 50px;
 }
+footer .email-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--third-color);
+}
+footer .email-link:hover {
+  color: var(--fourth-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--third-color);
+  background-color: var(--first-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--fourth-color);
+  background-color: var(--second-color);
+}
+footer .contact-box {
+  background-color: var(--first-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+h4 {
+  font-size: 30px;
+}
+footer .contact-box p {
+  margin: 0;
+}
